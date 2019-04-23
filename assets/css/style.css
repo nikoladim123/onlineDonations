@@ -146,12 +146,14 @@ h1 span{
   width: 5.613vw;
   background: rgba(255,255,255,0.5);
   height: 63vw;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  z-index: 1;
 }
 
 .getStartedNow:hover{
