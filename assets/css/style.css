@@ -44,9 +44,42 @@ button:hover{
   cursor: pointer;
 }
 
-.redNarrowBackground{
+.circle{
+  width: 16.666vw;
+  height: 16.666vw;
   position: absolute;
-  /* transform-origin:  */
+  background-color: rgba(255,202,255,0.22);
+  border-radius: 50%;
+  top: -0.5vw;
+  right: 2.793vw;
+  animation-name: circle;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  box-shadow: 0px 0px 132px -5vw rgba(0,0,0,1);
+}
+
+@keyframes circle {
+  0%{
+    top: -0.5vw;
+    right: 2.793vw;
+  }
+  25%{
+    top: 0vw;
+    right: 2.3vw;
+  }
+  75%{
+    top: -0.5vw;
+    right: 2.3vw;
+  }
+  100%{
+    top: -0.5vw;
+    right: 2.793vw;
+  }
+}
+
+/* .redNarrowBackground{
+  position: absolute;
+  transform-origin:
   background: linear-gradient(135deg, rgba(255,49,80,1) 0%, rgba(255,81,75,1) 48%, rgba(255,107,70,1) 66%, rgba(255,107,70,1) 100%);
   width: 151vw;
   top: -39vw;
@@ -83,26 +116,26 @@ button:hover{
   height: 81.029vw;
   top: -6vw;
   right: -6vw
-}
+} */
 
 .logo{
   position: relative;
-  width: 39.7vw;
-  height: 8vw;
-  margin-left: 4.625vw;
+  width: 24.5344vw;
+  height: 3.3054vw;
+  margin-left: 8.625vw;
   margin-top: 1.455vw;
 }
 
 h1{
-  position: relative;
-  font-family: 'Sports World-Regular',serif;
-  font-size: 6.237vw;
-  color: white;
-  margin-left: 6.34vw;
-  margin-top: 6.75vw;
-  line-height: 0.8;
-  margin-bottom: 3vw;
-  text-shadow: -2px 3px 3px rgba(0, 0, 0, 1);
+    position: relative;
+    font-family: 'Sports World-Regular',serif;
+    font-size: 6.237vw;
+    color: white;
+    margin-left: 6.34vw;
+    margin-top: 4.75vw;
+    line-height: 0.8;
+    margin-bottom: 2vw;
+    text-shadow: -2px 3px 3px rgba(0, 0, 0, 1);
 }
 h1 span{
   font-size:2.8586vw;
@@ -111,17 +144,17 @@ h1 span{
 
 .hOne{
   transition: 2s;
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .easyFreeWorksBox{
   transition: 0.5s;
-  opacity: 0;
+  /* opacity: 0; */
   position: relative;
   outline: 1px solid rgba(255,255,255,0.5);
   width:29.8731vw;
-  /* margin-left: 5.821vw; */
-  margin-left: -34.179vw;
+  margin-left: 5.821vw;
+  /* margin-left: -34.179vw; */
   padding: 0.1px;
   padding-bottom: 1.5vw;
   padding-left: 1vw;
@@ -162,7 +195,7 @@ h1 span{
 }
 
 .getStartedNow p{
-  color: rgb(255,222,0);
+  color: rgb(255,81,81,0.5);
   font-family: 'Sports World-Regular',serif;
   writing-mode: tb-rl;
   font-size: 3.742vw;
@@ -174,11 +207,11 @@ h1 span{
   padding: 0.1px;
   text-align: center;
   width: 84.667vw;
-  height: 64.553vw;
+  /* height: 64.553vw; */
   background: white;
   position: relative;
   margin-left: 50%;
-  margin-top: 28.95vw;
+  margin-top: -0.05vw;
   left: -42.3335vw;
   box-shadow: 0px 0px 167px -55px rgba(0,0,0,0.75);
 }
@@ -231,6 +264,7 @@ h1 span{
   /* border: 1px solid black; */
   justify-content: center;
   margin-top: 15.1247vw;
+  margin-bottom: 5.0279vw;
 }
 
 .circleDiv{
@@ -520,4 +554,47 @@ footer img{
   text-decoration: none;
   color: rgb(122,123,128);
   font-size: 0.8vw;
+}
+
+/* banner */
+.banner {
+  padding: 0.1px;
+  position: relative;
+  width: 86.359vw;
+  height: 43.528vw;
+  background-position: 50% 100%;
+  /* overflow: hidden; */
+  margin-left: 50%;
+  left: -43.175vw;
+  /* background: radial-gradient(ellipse at center, rgba(238,200,255,1) 0%, rgba(82,43,255,1) 100%); */
+  box-shadow: 0px 48px 101px -39px rgba(0,0,0,0.8);
+  z-index: 1;
+}
+
+.skewBG {
+  position: absolute;
+  background-image: url(../images/skewBG.png);
+  background-size: 100% 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 61.545vw;
+}
+
+.vidDiv {
+  transition: 2s;
+  position: absolute;
+  width: 50.279vw;
+  height: 47.8584vw;
+  right: 0vw;
+  bottom: 0;
+  overflow: hidden;
+}
+.vidDiv img{
+  width: 100%;
+  height: 100%;
+}
+
+.textBox{
+  position: relative;
 }

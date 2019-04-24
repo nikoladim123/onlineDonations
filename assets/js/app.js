@@ -5,10 +5,10 @@ var divInsideButton = document.getElementsByClassName('divInsideButton')[0];
 var watchNowButton = document.getElementsByClassName('watchNowButton')[0];
 
 
-function peoplePictureFun() {
-  peoplePicture.style.top = "0";
-  peoplePicture.style.right = "0";
-}
+// function peoplePictureFun() {
+//   peoplePicture.style.top = "0";
+//   peoplePicture.style.right = "0";
+// }
 
 function hOneFun() {
   setTimeout(function () {
@@ -38,7 +38,7 @@ function divInsideButtonOff() {
 }
 
 window.onload = function(){
-  peoplePictureFun();
+  // peoplePictureFun();
   hOneFun();
   easyFreeWorksBoxFun();
 }
