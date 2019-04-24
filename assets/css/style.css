@@ -135,11 +135,11 @@ h1{
     margin-top: 4.75vw;
     line-height: 0.8;
     margin-bottom: 2vw;
-    text-shadow: -2px 3px 3px rgba(0, 0, 0, 1);
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
 }
 h1 span{
   font-size:2.8586vw;
-  text-shadow: -2px 3px 3px rgba(0, 0, 0, 0);
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0);
 }
 
 .hOne{
@@ -151,7 +151,7 @@ h1 span{
   transition: 0.5s;
   /* opacity: 0; */
   position: relative;
-  outline: 1px solid rgba(255,255,255,0.5);
+  outline: 1px solid rgba(255,157,53,0.5);
   width:29.8731vw;
   margin-left: 5.821vw;
   /* margin-left: -34.179vw; */
@@ -177,7 +177,7 @@ h1 span{
 .getStartedNow{
   transition: 0.5s;
   width: 5.613vw;
-  background: rgba(255,255,255,0.5);
+  /* background: rgba(255,255,255,0.5); */
   height: 63vw;
   position: fixed;
   right: 0;
@@ -198,21 +198,21 @@ h1 span{
   color: rgb(255,81,81,0.5);
   font-family: 'Sports World-Regular',serif;
   writing-mode: tb-rl;
-  font-size: 3.742vw;
-  padding-bottom: 8vw;
+  font-size: 3.542vw;
+  /* padding-bottom: 8vw; */
 }
 
 /* floatingDiv floatingDiv */
 .floatingDiv{
   padding: 0.1px;
   text-align: center;
-  width: 84.667vw;
+  width: 80vw;
   /* height: 64.553vw; */
   background: white;
   position: relative;
   margin-left: 50%;
   margin-top: -0.05vw;
-  left: -42.3335vw;
+  left: -40vw;
   box-shadow: 0px 0px 167px -55px rgba(0,0,0,0.75);
 }
 
